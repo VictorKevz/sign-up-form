@@ -1,0 +1,19 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+.intro>p{
+    max-width: 90%;
+    line-height: 1.5;
+}
+@media (max-width:960px) {
+    .intro{
+        text-align: center;
+    }
+    .intro p{
+        margin: 0 auto;
+    }
+  }

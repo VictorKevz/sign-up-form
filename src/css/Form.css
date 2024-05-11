@@ -1,0 +1,120 @@
+.input-container > input,button,.form-intro{
+    width: 100%;
+    min-height: 56px;
+    display: inline;
+    border-radius: 8px;
+
+   
+}
+.input-container > input{
+    color: hsl(249, 10%, 26%);
+    font-weight: 600;
+    padding-left: 40px;
+    font-size: 1.6rem;
+    border: 1px solid hsla(8, 25%, 77%, 0.5) ;
+
+
+}
+
+.form > input:not(:first-child){
+    border: 1px solid hsl(246, 25%, 77%,.5) ;
+
+}
+.form > input:hover{
+    border: 1px solid hsl(249, 10%, 26%);
+ 
+}
+.form > button{
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 600;
+    color: #fcfbfb;
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+}
+button:hover{
+    background-color: hsl(154, 59%, 51%,.6);
+    cursor: pointer;
+ 
+}
+.form-intro{
+    background-color: hsl(248, 32%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 50px 23px;
+    box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.3);
+
+
+}
+.form-intro p{
+    color: rgb(255, 255, 255,.7);
+    text-align: center;
+
+}
+.form-intro span{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+
+}
+footer>span{
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+}
+
+.form-container{
+    text-align: center;
+    margin: 0 auto;
+}
+.form{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    max-height: 565px;
+    max-width: 540px;
+    box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.3);
+
+
+
+}
+.input-container{
+position: relative;
+width: 100%;
+min-height: 56px;
+margin-bottom: 40px;
+border-radius: 8px;
+
+
+}
+.error-active{
+    border: 1px solid hsl(0, 100%, 74%);
+    border-radius: 8px;
+}
+.error-icon{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+   
+}
+.error-message{
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    color: hsl(0, 100%, 74%);
+    font-size: 1.2rem;
+}
+@media (max-width:960px) {
+    .intro{
+        text-align: center;
+    }
+    .form-container{
+        max-width: 350px;
+    }
+    .form-intro p{
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    
+    }
+  }
